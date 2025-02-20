@@ -1,27 +1,14 @@
+// SampleScreen.jsx
 import React from 'react';
-import { View, Text, Button, StyleSheet } from 'react-native';
+import { View, Text, Button } from 'react-native';
 
-const SampleScreen = ({ navigation }) => {
+const SampleScreen = () => {
   return (
-    <View style={styles.container}>
-      <Text style={styles.title}>Welcome to Sample Screen</Text>
-      <Button title="Go to Details" onPress={() => navigation.navigate('Details')} />
+    <View>
+      <Text>Hello from Remote Component!</Text>
+      <Button title="Click me" onPress={() => alert('Button clicked!')} />
     </View>
   );
 };
-
-const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-    justifyContent: 'center',
-    alignItems: 'center',
-    backgroundColor: '#f8f9fa',
-  },
-  title: {
-    fontSize: 20,
-    fontWeight: 'bold',
-    marginBottom: 20,
-  },
-});
 
 export default SampleScreen;
