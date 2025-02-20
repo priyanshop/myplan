@@ -2,7 +2,7 @@
 import React from 'react';
 import { View, Text, Button } from 'react-native';
 
-const SampleScreen = () => {
+export const SampleScreen = () => {
   return (
     <View>
       <Text>Hello from Remote Component!</Text>
@@ -10,5 +10,3 @@ const SampleScreen = () => {
     </View>
   );
 };
-
-export default SampleScreen;
