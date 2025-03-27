@@ -3,112 +3,72 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Lean Muscle Gain & Fat Loss Plan</title>
-    <link rel="stylesheet" href="styles.css">
+    <title>Navigation Page</title>
+    <style>
+        /* Global styles */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Arial', sans-serif;
+        }
+
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background: linear-gradient(135deg, #1e3c72, #2a5298);
+            color: white;
+            text-align: center;
+        }
+
+        .container {
+            background: rgba(255, 255, 255, 0.1);
+            padding: 30px;
+            border-radius: 12px;
+            backdrop-filter: blur(10px);
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+            width: 300px;
+        }
+
+        h1 {
+            margin-bottom: 20px;
+            font-size: 24px;
+        }
+
+        ul {
+            list-style: none;
+        }
+
+        li {
+            margin: 15px 0;
+        }
+
+        a {
+            display: block;
+            padding: 10px 15px;
+            text-decoration: none;
+            color: white;
+            background: rgba(255, 255, 255, 0.2);
+            border-radius: 8px;
+            transition: all 0.3s ease;
+        }
+
+        a:hover {
+            background: rgba(255, 255, 255, 0.4);
+            transform: translateY(-2px);
+        }
+    </style>
 </head>
 <body>
-    <header>
-        <h1>Lean Muscle Gain & Fat Loss Plan</h1>
-        <p>Target Body Fat: 12% | Current Weight: 72 kg | Height: 169 cm</p>
-    </header>
-    <main>
-        <section id="diet-plan">
-            <h2>Diet Plan</h2>
-            <p><strong>Macronutrient Breakdown:</strong></p>
-            <ul>
-                <li>Protein: 86–108g per day</li>
-                <li>Carbohydrates: 216–288g per day</li>
-                <li>Fats: 58–72g per day</li>
-            </ul>
-            <h3>Meal Plan</h3>
-            <ul>
-                <li><strong>Breakfast (7:00 AM):</strong> Oats with milk, nuts, and chia seeds OR eggs with toast and smoothie.</li>
-                <li><strong>Mid-Morning Snack (10:00 AM):</strong> Apple or Greek yogurt with berries.</li>
-                <li><strong>Lunch (1:00 PM):</strong> Grilled chicken or lentil curry with brown rice and vegetables.</li>
-                <li><strong>Evening Snack (4:00 PM):</strong> Protein shake or paneer with salad.</li>
-                <li><strong>Dinner (7:00 PM):</strong> Grilled fish or tofu stir-fry with vegetables and quinoa.</li>
-                <li><strong>Pre-bedtime Snack (9:30 PM):</strong> Warm milk with turmeric or almonds.</li>
-            </ul>
-        </section>
-        <section id="workout-plan">
-            <h2>Workout Plan</h2>
-            <p><strong>Weekly Workout Split:</strong></p>
-            <ol>
-                <li>
-                    <strong>Day 1: Upper Body Strength</strong>
-                    <ul>
-                        <li>Bench Press: 4 sets x 8–12 reps</li>
-                        <li>Dumbbell Rows: 4 sets x 8–12 reps</li>
-                        <li>Push-Ups: 3 sets x 12–15 reps</li>
-                        <li>Bicep Curls: 4 sets x 10–12 reps</li>
-                        <li>Tricep Dips: 4 sets x 12–15 reps</li>
-                    </ul>
-                </li>
-                <li>
-                    <strong>Day 2: Lower Body Strength</strong>
-                    <ul>
-                        <li>Squats: 4 sets x 8–12 reps</li>
-                        <li>Deadlifts: 4 sets x 8–10 reps</li>
-                        <li>Lunges: 3 sets x 12 reps each leg</li>
-                        <li>Leg Press: 3 sets x 12 reps</li>
-                        <li>Calf Raises: 4 sets x 15–20 reps</li>
-                    </ul>
-                </li>
-                <li>
-                    <strong>Day 3: Active Rest (Cardio + Core)</strong>
-                    <ul>
-                        <li>30 minutes HIIT (e.g., treadmill sprints, jump rope)</li>
-                        <li>Planks: 3 sets x 45-60 seconds</li>
-                        <li>Russian Twists: 3 sets x 20 reps</li>
-                        <li>Leg Raises: 3 sets x 12-15 reps</li>
-                    </ul>
-                </li>
-                <li>
-                    <strong>Day 4: Push Day (Chest, Shoulders, Triceps)</strong>
-                    <ul>
-                        <li>Incline Bench Press: 4 sets x 8–12 reps</li>
-                        <li>Shoulder Press: 4 sets x 8–12 reps</li>
-                        <li>Tricep Extensions: 4 sets x 10–12 reps</li>
-                        <li>Lateral Raises: 4 sets x 10–12 reps</li>
-                        <li>Cable Chest Flys: 4 sets x 10–12 reps</li>
-                    </ul>
-                </li>
-                <li>
-                    <strong>Day 5: Pull Day (Back, Biceps)</strong>
-                    <ul>
-                        <li>Pull-Ups: 4 sets x 8–12 reps</li>
-                        <li>Lat Pull-Downs: 4 sets x 8–12 reps</li>
-                        <li>Barbell Rows: 4 sets x 8–12 reps</li>
-                        <li>Hammer Curls: 3 sets x 12 reps</li>
-                        <li>Barbell Bicep Curls: 4 sets x 10–12 reps</li>
-                    </ul>
-                </li>
-                <li>
-                    <strong>Day 6: Leg Day + Core</strong>
-                    <ul>
-                        <li>Front Squats: 4 sets x 8–12 reps</li>
-                        <li>Romanian Deadlifts: 4 sets x 8–12 reps</li>
-                        <li>Bulgarian Split Squats: 3 sets x 12 reps per leg</li>
-                        <li>Flutter Kicks: 3 sets x 30 seconds</li>
-                        <li>Bicycle Crunches: 3 sets x 15 reps</li>
-                    </ul>
-                </li>
-                <li>
-                    <strong>Day 7: Active Rest (Low-Intensity Cardio)</strong>
-                    <ul>
-                        <li>30–45 minutes of steady-state cardio (e.g., walking, cycling, swimming)</li>
-                        <li>Stretching and flexibility exercises</li>
-                    </ul>
-                </li>
-            </ol>
-        </section>
-        <section id="target-weight">
-            <h2>Target Weight</h2>
-            <p>Your estimated weight at 12% body fat will be <strong>65.5 kg</strong>.</p>
-        </section>
-    </main>
-    <footer>
-        <p>Created with your fitness goals in mind!</p>
-    </footer>
+    <div class="container">
+        <h1>Project Navigation</h1>
+        <ul>
+            <li><a href="old_workout.html">🏠 Old Workout (old_workout.html)</a></li>
+            <li><a href="new_workout.html">🔥 New Workout (new_workout.html)</a></li>
+            <li><a href="workout.html">💪 Workout (workout.html)</a></li>
+        </ul>
+    </div>
 </body>
 </html>
